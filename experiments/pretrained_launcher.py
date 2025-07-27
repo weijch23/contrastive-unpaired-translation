@@ -51,6 +51,13 @@ class Launcher(TmuxLauncher):
                 CUT_mode="FastCUT",
             ),
 
+            # Command 6
+            Options(
+                dataroot="./datasets/monet2photo/",
+                name="monet2photo_fastcut_pretrained",
+                CUT_mode="FastCUT",
+            ),
+
             
         ]
 
